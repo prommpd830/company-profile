@@ -1,0 +1,54 @@
+nav .sidenav-trigger{
+	cursor: pointer;
+}
+
+nav .brand-logo{
+	font-weight: bold;
+}
+
+section {
+	padding: 20px 0;
+}
+
+#about img {
+	border-radius: 20px;
+	margin-top: 25px;
+}
+
+.parallax-container {
+  height: 30%;
+}
+
+.parallax-container #clients h3 {
+	text-shadow: 1px 1px 5px grey;
+}
+
+.parallax-container #clients img {
+	max-width: 200px;
+	filter: drop-shadow(1px 1px 1px black);
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label,
+.input-field input[type=tel]:focus + label,
+.input-field input[type=email]:focus + label,
+.input-field textarea:focus + label {
+ color: #01579b !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus,
+.input-field input[type=tel]:focus,
+.input-field input[type=email]:focus,
+.input-field textarea:focus{
+ border-bottom: 1px solid #01579b !important;
+ box-shadow: 0 1px 0 0 #01579b !important;
+}
+
+/* icon prefix focus color */
+.input-field .prefix.active {
+ color: #01579b;
+}
+
+footer {
+	padding: 5px 0;
+}
